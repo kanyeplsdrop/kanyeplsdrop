@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Embeds</title>
+</head>
+<body>
+  <h1>Embed code for sites :> </h1>
+  
+  <h2>Embedded Links</h2>
+  <p>Cool thing here:</p>
+  
+  <iframe src="https://kanyeplsdrop.github.io/kanyeplsdrop/server1/" width="500" height="300"></iframe>
+
+  <script>
+    function copyToClipboard() {
+      const phrase = '<iframe src="https://kanyeplsdrop.github.io/kanyeplsdrop/servernumbergoeshere/" width="500" height="300"></iframe>';
+      navigator.clipboard.writeText(phrase);
+      alert('The phrase has been copied to the clipboard!');
+    }
+  </script>
+</head>
+<body>
+  <h1>Copy to Clipboard</h1>
+  
+  <button onclick="copyToClipboard()">Copy Phrase</button>
+</body>
+</html>
